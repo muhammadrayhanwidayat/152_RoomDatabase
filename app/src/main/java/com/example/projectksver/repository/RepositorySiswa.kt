@@ -1,6 +1,8 @@
 package com.example.projectksver.repository
 
-
+import com.example.projectksver.room.Siswa
+import com.example.projectksver.room.SiswaDao
+import kotlinx.coroutines.flow.Flow
 
 interface RepositoriSiswa {
     fun getAllSiswaStream(): Flow<List<Siswa>>
@@ -10,7 +12,7 @@ interface RepositoriSiswa {
 
 class OfflineRepositoriSiswa(
     private val siswaDao: SiswaDao
-): RepositoriSiswa {
+) : RepositoriSiswa {
 
     override fun getAllSiswaStream(): Flow<List<Siswa>> = siswaDao.getAllSiswa()
 
