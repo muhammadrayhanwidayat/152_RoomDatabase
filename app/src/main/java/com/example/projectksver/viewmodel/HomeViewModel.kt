@@ -3,7 +3,7 @@ package com.example.projectksver.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.projectksver.repositori.RepositoriSiswa
+import com.example.projectksver.repository.RepositoriSiswa
 import com.example.projectksver.room.Siswa
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
