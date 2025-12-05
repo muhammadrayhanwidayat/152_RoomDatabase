@@ -1,4 +1,4 @@
-package com.example.projectksver.view.uicontroller
+package com.example.projectksver.view
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack

@@ -1,4 +1,4 @@
-package com.example.projectksver.view.uicontroller
+package com.example.projectksver.view
 
 
 import androidx.compose.foundation.layout.*
